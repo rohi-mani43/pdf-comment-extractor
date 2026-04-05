@@ -1,5 +1,5 @@
 from fastapi import FastAPI, UploadFile, File, Header, HTTPException
-from utils import extract_pdf_comments
+from app.utils import extract_pdf_comments
 
 app = FastAPI()
 
